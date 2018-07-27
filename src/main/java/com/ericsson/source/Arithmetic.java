@@ -3,23 +3,19 @@ package com.ericsson.source;
 public class Arithmetic {
 	
 	public int addition(int a, int b) {
-		int total = (a + b);
-		return total;
+		return a+b;
 	}
 	
 	public int subtraction(int a, int b) {
-		int total = (a - b);
-		return total;
+		return a-b;
 	}
 	
 	public int multiplication(int a, int b) {
-		int total = (a * b);
-		return total;
+		return a*b;
 	}
 	
 	public int division(int a, int b) {
-		int total = (a / b);
-		return total;
+		return a/b;
 	}
 
 	public void displayResults(int addition, int subtraction, int multiplication, int division) {
